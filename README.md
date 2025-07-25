@@ -16,3 +16,5 @@ i dont know how to animate 2d characters/items in game cuz i dont really know wh
 and lastly.....i have to juggle making this and school 
 
 so yeah...now you know
+
+ohh and by the way..im 13 so...still struggling with renpy so..i guess any tips?
