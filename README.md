@@ -12,7 +12,7 @@ and more....
 
 reason two:
 im not artistic..heck i cant even draw a stick man without a ruler 
-im dont know how to animate 2d characters/items in game cuz i dont really know what the heck these buttons work
+i dont know how to animate 2d characters/items in game cuz i dont really know what the heck these buttons work
 and lastly.....i have to juggle making this and school 
 
 so yeah...now you know
