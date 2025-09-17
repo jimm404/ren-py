@@ -1,88 +1,99 @@
-﻿#charater varible
-define H = Character ("Hitoro", color = '#003cff' )
-define H2 = Character('Hanabi', color = '#ff6bf9')
-define N = Character('Nobi', color = '#bbff00')
-define F = Character('Flix', color = '#720000')
-define B = Character ('Blake', color = '#720000')
-define K = Character('Kagura', color = '#dcff2a')
-define M = Character('May', color = '#d07506')
-define A = Character('Ariane', color = '#fc8cfe')
-define JUNOS = Character ('THE MIKU!!!!', color = '#fdfd96')
+# Character definitions
+define H = Character("Hitoro", color = '#003cff')  # main char
+define H2 = Character("Hanabi", color = '#ff6bf9')  # main fem 
+define N = Character("Nobi", color = '#bbff00')  # friend of male
+define F = Character("Flix", color = '#720000')  # bully
+define B = Character("Blake", color = '#720000')  # bully
+define K = Character("Kagura", color = '#dcff2a')  # teacher
+define M = Character("May", color = '#d07506')  # librarian
+define A = Character("Ariane", color = '#fc8cfe')  # mother of H 
+define JUNOS = Character("THE MIKU!!!!", color = '#fdfd96')
+define Extra = Character("Student", color = '#8e979d')
 
-#the story (a.k.a ang mahirap na part...langhiya)
+# The story
 label start:
-  play music 'audio/02 三葉の通学.mp3' fadein 2.0 
-  pause 
-  ". . . . . "
 
-  H ". . . . . . *sleeping*"
-  pause  
+    play music "audio/02 三葉の通学.mp3" fadein 2.0
+    pause
+    ". . . . . "
 
+    H ". . . . . . *sleeping*"
+    pause  
 
-#downstairs
-  A "HITO! wake up. . . . . your late for school"
+    # Downstairs
+    A "HITO! Wake up... you’re late for school!"
 
-  H  "what? *gets up and bumps his head on the celing*" 
-  pause
-  play audio 'audio\bump-7-92964.mp3' volume 100.0
-  H "owwwww. . . . *gets out of bed and starts to get ready*" 
-  H "okay okay. . . . *gets dressed and heads downstairs*"
+    H "What? *gets up and bumps his head on the ceiling*"
+    play audio "audio/bump-7-92964.mp3" volume 1.0
 
-  "well. . . . this is not a great start but. . . . let me introduce my self. . . . so im Hitoro Shiranui or better
-  call me as hito"
+    H "Owww... *gets out of bed and starts to get ready*"
+    H "Okay okay... *gets dressed and heads downstairs*"
 
-  H "*goes down stairs* mom! im going. . . . *heading to the front door*"
+    "Well... this is not a great start but... let me introduce myself. I’m Hitoro Shiranui, or better call me Hito."
 
-  A "wait! *gives him his lunch* here. . . . and wheres my hug and kiss"
+    H "*goes downstairs* Mom! I’m going... *heading to the front door*"
 
-  H "huh? *looks at his mom* oh. . . . *gives her a big hug and kiss on the cheek* ok mom. . . . . ."
-  H "see you later mom. . . . *heads out the door*"
+    A "Wait! *gives him his lunch* Here... and where’s my hug and kiss?"
 
-  A "remember! study before woman ok!?"
+    H "Huh? *looks at his mom* Oh... *gives her a big hug and kiss on the cheek* Okay Mom..."
+    H "See you later. *heads out the door*"
 
-  H "huh? *looks back at his mom* what? *laughs* mom you always say"
+    A "Remember! Study before women, okay!?"
 
-  "ohhh and if you don't know. . . . im an animator. . . . sometimes im a tech nerd my self"
-  "but. . . . im cool with it"
-  "animator at day"
-  "hacker by night"
-  "and. . . student by force"
-  pause  
+    H "Huh? *looks back at his mom* What? *laughs* Mom, you always say that."
 
-#Kōyō Metropolitan High School
-stop music fadeout 2.0
-pause  
-queue music 'audio/03 糸守高校.mp3' fadein 1.5 volume 1.0
-"ahhhh. . . . Kōyō Metropolitan High School. . . .where smart kids live and suffer from the bulies. . . . like if you here. . ."
-"get ready cuz wegies are common here"
+    "Oh, and if you don’t know... I’m an animator. Sometimes I’m a tech nerd myself."
+    "But... I’m cool with it."
+    "Animator by day..."
+    "Hacker by night..."
+    "And... student by force."
+    pause  
 
-"but me?"
-pause  
+    # Kōyō Metropolitan High School
+    stop music fadeout 2.0
+    pause
+    queue music "audio/03 糸守高校.mp3" fadein 1.5 volume 1.0
 
+    "Ahhhh... Kōyō Metropolitan High School. Where smart kids live and suffer from bullies."
+    "Like if you’re here..."
+    "Get ready, ‘cause wedgies are common."
 
+    "But me?"
+    "I just animate..."
+    "Mostly, I just hide like a bunny in a burrow."
 
+    # The park
+    pause
+    # queue music "audio/park_calming_music.mp3" fadein 1.5 volume 1.0
 
+    "So I wait there..."
+    "Just, you know..."
+    "Chilling..."
+    "Until a student comes up to me and says..."
 
+    Extra "Are you Hitoro by any chance?"
 
+    H "Ummm... yes?"
+    "Why are you here?"
 
+    Extra "I would like to give you this."
 
+    H "A letter?"
+    "By who?"
+    "Who gave this?"
 
- 
+    Extra "I don’t know..."
+    "They said to just give it to you."
+    "She never said her name."
+    "She just gave it to me and left."
 
+    H "Ohhh..."
+    "I guess thanks?"
+    "But I don’t know anybody yet."
+    "So..."
+    "I’ll just read it in my dorm."
 
+    H "Thanks..."
 
-
-
-
-
-
-
-
-
-
-  
-   
-
-
-
-    
+    # Chapter One (ver_01: finding_the_color_pallet)
+    return
